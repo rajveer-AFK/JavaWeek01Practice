@@ -24,8 +24,8 @@ public class Lab1Question3 {
 		int quartsNeeded = 18;
 		
 		// Calculating and outputting the number of gallons and quarts needed for the job
-		JOptionPane.showMessageDialog(null,"A job that needs 18 quarts requires " + quartsNeeded / 4
-						   + " gallons plus " + quartsNeeded % 4 + " quarts");
+		JOptionPane.showMessageDialog(null,"A job that needs 18 quarts requires " + quartsNeeded / QUARTS_IN_GALLON
+						   + " gallons plus " + quartsNeeded % QUARTS_IN_GALLON + " quarts");
 		
 	}
 }
